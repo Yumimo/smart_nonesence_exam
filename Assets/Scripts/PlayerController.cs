@@ -8,7 +8,6 @@ using Random = UnityEngine.Random;
 
 public class PlayerController : MonoBehaviour
 {
-
     [Serializable]
     public class BodyPartClass
     {
@@ -48,6 +47,17 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         GameManager.OnAnswer += GoToLocation;
+        GameManager.OnSetPlayer += SetPlayer;
+    }
+
+    private void SetPlayer(int obj)
+    {
+        animator.SetBool(IsWalking, true);
+        transform.LeanMoveX(originalPosition.x, m_walkTime).setOnComplete(() =>
+        {
+            animator.SetBool(IsWalking, false);
+            IsReady = false;
+        });
     }
 
     private void OnDisable()
@@ -107,6 +117,12 @@ public class PlayerController : MonoBehaviour
         _rb.AddForce(new Vector2(5f, 10f), ForceMode2D.Impulse);
     }
 
+    public void GetAttackCutscene()
+    {
+        var _action = GetComponent<ActionHandler>();
+        _action.FightCutscene();
+    }
+
     private void GoToLocation(string obj)
     {
         animator.SetBool(IsWalking, true);
@@ -117,4 +133,6 @@ public class PlayerController : MonoBehaviour
         });
 
     }
+    
+    
 }

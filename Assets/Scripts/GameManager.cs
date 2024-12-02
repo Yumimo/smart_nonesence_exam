@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public PlayerController ActivePlayer { get; private set; }
     [SerializeField] private PlayableDirector _director;
     public bool AllPlayerReady => m_players.All(x => x.IsReady);
+    public int _nextPlayer;
 
     private void Awake()
     {
@@ -64,10 +65,6 @@ public class GameManager : MonoBehaviour
     private void SetActivePlayer(int _arg)
     {
         ActivePlayer = m_players[_arg];
-        foreach (var player in m_players)
-        {
-            player.IsReady = false;
-        }
     }
     
 
@@ -85,18 +82,15 @@ public class GameManager : MonoBehaviour
             Debug.Log($"End Game Winner {ActivePlayer.Name}");
             return;
         }
-        if (obj)
-        {
-            Debug.Log($"Show Win Cinematics for Active Player");
-        }
-        else
-        {
-            Debug.Log($"Show Lose Cinematics for Active Player");
-        }
-        await Task.Delay(1000);
+        _nextPlayer = nextIndex;
+        _player.GetAttackCutscene();
+        await Task.Delay(500);
         _player.RemoveHeart();
 
+    }
 
-        OnSetPlayer(nextIndex);
+    public void Setup()
+    {
+        OnSetPlayer(_nextPlayer);
     }
 }
