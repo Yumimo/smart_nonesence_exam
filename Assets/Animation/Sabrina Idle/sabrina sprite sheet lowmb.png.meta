@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: a24ad397ef991ea4cbd7effe2c83ce32
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4368
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072038b0bc28c4346a21ef71a3106d3b
+      internalID: -1223594241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 4368
+        width: 342
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e6b3be65a7ead4b8aa21db3670cefe
+      internalID: -1044074712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 4368
+        width: 341
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9f7948a4dfa7844a64f89fbf8ac157
+      internalID: -2095242634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_3
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 4368
+        width: 340
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740c87a81ec8c141bea9b2ae6f8f2b1
+      internalID: 1019703806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_4
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 4368
+        width: 338
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03311076e9554c44a3872716a881369
+      internalID: -2117771749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_5
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 4368
+        width: 343
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af0430b94bb050438c7217d7c3d1622
+      internalID: 466886065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_6
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 4368
+        width: 345
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5da52792b068f14384bb300724a5515
+      internalID: -880551780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_7
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 4368
+        width: 348
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b14e85cb12c284ea91d77beaf5c9f6
+      internalID: 1561140069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_8
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4368
+        width: 348
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d711e26bff43f29428699c6c34f97487
+      internalID: 820540991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_9
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 4368
+        width: 350
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6709fa5d229cdf14aa4b26503748e1f3
+      internalID: -1905373251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_10
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 4368
+        width: 350
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b420df32cdbe874998d0031e47ee370
+      internalID: 873611269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_11
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 4368
+        width: 348
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe06c6610a515d40a66791858c3863b
+      internalID: 347159502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3648
+        width: 351
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dab836d3fce584d80de8c38f9e88d6
+      internalID: 1811143295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 3648
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364391c6e7dc6074286664ec7694b28f
+      internalID: 500928412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 3648
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ac57f9ee641249b174e15519e0e94
+      internalID: -558970936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_15
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 3648
+        width: 348
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08c07c114d52bc43b8736e6ff8b4164
+      internalID: 487749630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_16
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 3648
+        width: 347
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74722c01b30fc944b8e90dcbcd240af0
+      internalID: 1402587251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_17
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 3648
+        width: 343
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d693f9f38c2ba449742d0db7cc7c8b
+      internalID: 1494666726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_18
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 3648
+        width: 343
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b68d2e90dbab4469d2d57813ccc3d2
+      internalID: -1641191827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_19
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 3648
+        width: 340
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88060900a6591804da2ab6e0851ac996
+      internalID: -1832148461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_20
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 3648
+        width: 342
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a1fdde7f5d0034f9ed7f64f66ce76b
+      internalID: -466294023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_21
+      rect:
+        serializedVersion: 2
+        x: 3807
+        y: 3648
+        width: 343
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34874cd393a178843910df8bde53c0ee
+      internalID: -578234436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_22
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 3648
+        width: 342
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95bf70585ae014f805e64b7f96799e
+      internalID: -753897837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_23
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 3648
+        width: 350
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb667d9c0b27b7248a56b32c847608b6
+      internalID: 1696459894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2925
+        width: 342
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4b05219fcd7984eb38b8fd00d761c0
+      internalID: 1935526294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_25
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2925
+        width: 343
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a451917bf16f4a141adf5ec486cf5af6
+      internalID: 1108306768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_26
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2925
+        width: 346
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dabbd3f0a92764aa19a7c5f064ad78
+      internalID: 876225250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_27
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2925
+        width: 347
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460ea3210bc1da146bb83cf3e43dbdd0
+      internalID: 1737669428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_28
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2925
+        width: 349
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5946e3e0755913f4ebad7be986be4bcd
+      internalID: 1065330968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_29
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2925
+        width: 349
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de2c1333f7c674da652a0ae324aa81
+      internalID: 429006921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_30
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 2925
+        width: 351
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4eaa2816330d64a970db12aa467ac0
+      internalID: -331263512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_31
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 2925
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9df9bbe26c71a4cacae0c9f88d3c1b
+      internalID: 2061386240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_32
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 2925
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3796134dfd15e6469e8f726740c5f84
+      internalID: 572244146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_33
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2925
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47202a9c012f9841aa09bb9b42d72ed
+      internalID: -444794848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_34
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 2925
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5224001a920d048bc829738343e201
+      internalID: -1636985297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_35
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 2925
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03faa761c865524c8f7cd5f419ed420
+      internalID: 1931530080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2202
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f901a9a4283dc1444860768431698ff6
+      internalID: -904851562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_37
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2202
+        width: 348
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814eac106a1bdec49a174e4f5d946fbb
+      internalID: -1988754762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_38
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 2202
+        width: 348
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae1dbff34ef0448bb6a40d5551513c
+      internalID: 1184245634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_39
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2202
+        width: 345
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cbeec3b124818479b8bf6de8fc3daf
+      internalID: 763938997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_40
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2202
+        width: 343
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca787d27d5683b54fa453391920ff8eb
+      internalID: -14270093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_41
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2202
+        width: 343
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e713a4d56cc28634caf81b8a1316215d
+      internalID: -40175315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_42
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2202
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30fe2bb9e23384daf50e28701714fb
+      internalID: 1596277825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_43
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 2202
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc59903b21b33c1428270be514e4089c
+      internalID: -1708152411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_44
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 2202
+        width: 343
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab07f7d59bcf22143974bf0fdc5edc9f
+      internalID: 1505390177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_45
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 2202
+        width: 343
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99521d3a1b3f34eaed3cbb09122553
+      internalID: -894963779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_46
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 2202
+        width: 340
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b317f8e4b4604390bd2df4feaddfd
+      internalID: -754109818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_47
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 2202
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c341d5bfe00404f4f90c4f58b20cd110
+      internalID: -1726333334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_48
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1482
+        width: 341
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d3b9cc91102fe46a21b9ceb5bd5be3
+      internalID: 1405639804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_49
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1482
+        width: 343
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119122004627c684d9a8b67308906bf2
+      internalID: -358799848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_50
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1482
+        width: 348
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f139a94ae4d68094b9900de54a1283a5
+      internalID: 427506590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_51
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1482
+        width: 348
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b8fb776d34d34449b76eeaf3f97504
+      internalID: 45153715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_52
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1482
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e06a1e34f80344ba2e39262feeef1
+      internalID: 1940787348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_53
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1482
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1197a814af5bc324a84e0a66c8b312f5
+      internalID: 59749553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_54
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1482
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f7632f981b9a49bf5d6d2ef5b2154
+      internalID: 277133825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_55
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1482
+        width: 348
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836f0f286433d14ab32a4d21f06ada3
+      internalID: 745898774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_56
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1482
+        width: 348
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b48de436d4e8c248b6b2945ccda4623
+      internalID: 534757377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_57
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 1482
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bba2cdd86cbe847b39ff8e10c25475
+      internalID: -605641059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_58
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 1482
+        width: 350
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a836810737d2cc940b603f6d93f22397
+      internalID: 1729622160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_59
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 1482
+        width: 350
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2ea65c4fdbc60418c07951b1e3b2cf
+      internalID: -2038870000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_60
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 759
+        width: 348
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48026a72148f75c4390957217a814d09
+      internalID: -1229675939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 759
+        width: 340
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42096c96f47ce84fa4b3d252a86032e
+      internalID: 1017924782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_62
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 759
+        width: 341
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b5574999f87e45a6d3ba5ad3003be
+      internalID: -1673702862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_63
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 759
+        width: 342
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16ca11866fe27408964f60e21a8986
+      internalID: 200568957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_64
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 759
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae5ba85d2438e44c811aff3dd600af5
+      internalID: -1945268686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_65
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 759
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e50581f79b5e448a73be9a885807f
+      internalID: 1606693577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_66
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 759
+        width: 343
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5980efe628630d47bb1d48e839da9e5
+      internalID: 567107948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_67
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 759
+        width: 342
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8efc55c5f5e2d147970ac9a380e8b8a
+      internalID: -1466618602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_68
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 759
+        width: 345
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e49325ec8bc2e4b9d1deca8dd634b3
+      internalID: 1802927305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_69
+      rect:
+        serializedVersion: 2
+        x: 3805
+        y: 759
+        width: 345
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e200c1c9185564bb9a54fce924ec5a
+      internalID: 1511337096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_70
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 759
+        width: 348
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f74da1db0617c4bb0a463d7446ec86
+      internalID: -222634831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_71
+      rect:
+        serializedVersion: 2
+        x: 4634
+        y: 759
+        width: 350
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a87f64f7da89941bc081b2c74d3d62
+      internalID: -1283555627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_72
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 38
+        width: 350
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3153041565ff1074aab0b84551df824c
+      internalID: -896258738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_73
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 38
+        width: 351
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b855e2794ffa9946b240466833be420
+      internalID: -2169080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_74
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 38
+        width: 348
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10172c41ebc34d429888182e6ec2fe0
+      internalID: 231242235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_75
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 38
+        width: 348
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad9f7611af622840b02661593ecc4f8
+      internalID: -1528626167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_76
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 38
+        width: 344
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d883745157feb504ab42ddebd056df4d
+      internalID: -1145376877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_77
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 38
+        width: 345
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e2e3a43f64f9846a285c5844ff7294
+      internalID: -130701978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_78
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 38
+        width: 343
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08810966d10e2db4d932fec1c7d9877d
+      internalID: 209022696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabrina sprite sheet lowmb_79
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 38
+        width: 343
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ecdb7bacb69045b1e2bd9d720cf33
+      internalID: -1648608429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sabrina sprite sheet lowmb_0: -1223594241
+      sabrina sprite sheet lowmb_1: -1044074712
+      sabrina sprite sheet lowmb_10: 873611269
+      sabrina sprite sheet lowmb_11: 347159502
+      sabrina sprite sheet lowmb_12: 1811143295
+      sabrina sprite sheet lowmb_13: 500928412
+      sabrina sprite sheet lowmb_14: -558970936
+      sabrina sprite sheet lowmb_15: 487749630
+      sabrina sprite sheet lowmb_16: 1402587251
+      sabrina sprite sheet lowmb_17: 1494666726
+      sabrina sprite sheet lowmb_18: -1641191827
+      sabrina sprite sheet lowmb_19: -1832148461
+      sabrina sprite sheet lowmb_2: -2095242634
+      sabrina sprite sheet lowmb_20: -466294023
+      sabrina sprite sheet lowmb_21: -578234436
+      sabrina sprite sheet lowmb_22: -753897837
+      sabrina sprite sheet lowmb_23: 1696459894
+      sabrina sprite sheet lowmb_24: 1935526294
+      sabrina sprite sheet lowmb_25: 1108306768
+      sabrina sprite sheet lowmb_26: 876225250
+      sabrina sprite sheet lowmb_27: 1737669428
+      sabrina sprite sheet lowmb_28: 1065330968
+      sabrina sprite sheet lowmb_29: 429006921
+      sabrina sprite sheet lowmb_3: 1019703806
+      sabrina sprite sheet lowmb_30: -331263512
+      sabrina sprite sheet lowmb_31: 2061386240
+      sabrina sprite sheet lowmb_32: 572244146
+      sabrina sprite sheet lowmb_33: -444794848
+      sabrina sprite sheet lowmb_34: -1636985297
+      sabrina sprite sheet lowmb_35: 1931530080
+      sabrina sprite sheet lowmb_36: -904851562
+      sabrina sprite sheet lowmb_37: -1988754762
+      sabrina sprite sheet lowmb_38: 1184245634
+      sabrina sprite sheet lowmb_39: 763938997
+      sabrina sprite sheet lowmb_4: -2117771749
+      sabrina sprite sheet lowmb_40: -14270093
+      sabrina sprite sheet lowmb_41: -40175315
+      sabrina sprite sheet lowmb_42: 1596277825
+      sabrina sprite sheet lowmb_43: -1708152411
+      sabrina sprite sheet lowmb_44: 1505390177
+      sabrina sprite sheet lowmb_45: -894963779
+      sabrina sprite sheet lowmb_46: -754109818
+      sabrina sprite sheet lowmb_47: -1726333334
+      sabrina sprite sheet lowmb_48: 1405639804
+      sabrina sprite sheet lowmb_49: -358799848
+      sabrina sprite sheet lowmb_5: 466886065
+      sabrina sprite sheet lowmb_50: 427506590
+      sabrina sprite sheet lowmb_51: 45153715
+      sabrina sprite sheet lowmb_52: 1940787348
+      sabrina sprite sheet lowmb_53: 59749553
+      sabrina sprite sheet lowmb_54: 277133825
+      sabrina sprite sheet lowmb_55: 745898774
+      sabrina sprite sheet lowmb_56: 534757377
+      sabrina sprite sheet lowmb_57: -605641059
+      sabrina sprite sheet lowmb_58: 1729622160
+      sabrina sprite sheet lowmb_59: -2038870000
+      sabrina sprite sheet lowmb_6: -880551780
+      sabrina sprite sheet lowmb_60: -1229675939
+      sabrina sprite sheet lowmb_61: 1017924782
+      sabrina sprite sheet lowmb_62: -1673702862
+      sabrina sprite sheet lowmb_63: 200568957
+      sabrina sprite sheet lowmb_64: -1945268686
+      sabrina sprite sheet lowmb_65: 1606693577
+      sabrina sprite sheet lowmb_66: 567107948
+      sabrina sprite sheet lowmb_67: -1466618602
+      sabrina sprite sheet lowmb_68: 1802927305
+      sabrina sprite sheet lowmb_69: 1511337096
+      sabrina sprite sheet lowmb_7: 1561140069
+      sabrina sprite sheet lowmb_70: -222634831
+      sabrina sprite sheet lowmb_71: -1283555627
+      sabrina sprite sheet lowmb_72: -896258738
+      sabrina sprite sheet lowmb_73: -2169080
+      sabrina sprite sheet lowmb_74: 231242235
+      sabrina sprite sheet lowmb_75: -1528626167
+      sabrina sprite sheet lowmb_76: -1145376877
+      sabrina sprite sheet lowmb_77: -130701978
+      sabrina sprite sheet lowmb_78: 209022696
+      sabrina sprite sheet lowmb_79: -1648608429
+      sabrina sprite sheet lowmb_8: 820540991
+      sabrina sprite sheet lowmb_9: -1905373251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
