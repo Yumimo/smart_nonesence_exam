@@ -3,6 +3,7 @@ using System.Collections;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Task = System.Threading.Tasks.Task;
 
 public class QuestionUI : MonoBehaviour
@@ -12,6 +13,7 @@ public class QuestionUI : MonoBehaviour
     
     [Header("Question UI")]
     [SerializeField] private GameObject m_questionPanel;
+    [SerializeField] private TextMeshProUGUI m_nameTMP;
     [SerializeField] private TextMeshProUGUI m_questionTMP;
     [SerializeField] private AnswerHandler[] m_answerHandlers;
     
@@ -50,14 +52,21 @@ public class QuestionUI : MonoBehaviour
         GameManager.OnAnswer -= OnAnswer;
         GameManager.OnSetPlayer -= SetupQuestion;
     }
+
+    public void RestartGame()
+    {
+        AudioManager.Instance.OnButtonClick();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     
     private async void SetupQuestion(int _arg)
     {
         activePlayer = _arg;
         var questionIndex = await GetQuestionAsync();
+        _usedQuestionList.Add(questionIndex);
         _activeQuestion = m_questionSO[questionIndex];
         m_questionTMP.text = _activeQuestion._question;
-        m_questionPanel.LeanScale(Vector3.one, 0.2f);
+        m_nameTMP.text = _gameManager.ActivePlayer.name;
         var _image = _arg == 0 ? m_einsteinAnswerImage : m_sabrinaAnswerImage;
         for (var i = 0; i < _activeQuestion._choices.Length; i++)
         {
@@ -74,12 +83,13 @@ public class QuestionUI : MonoBehaviour
                 m_answerHandlers[i].RemoveUnderLine();
             }
         }
-        
+
         await Task.Delay(1000);
         foreach (var button in m_answerHandlers)
         {
             button.ActivateButton(true);
         }
+        m_questionPanel.LeanScale(Vector3.one, 0.5f).setEaseLinear();
 
     }
     
@@ -121,6 +131,7 @@ public class QuestionUI : MonoBehaviour
     {
         var _banner = GetResultBanner(_result);
         yield return new WaitUntil(() => _gameManager.AllPlayerReady);
+        AudioManager.Instance.Result(_result);
         _banner.LeanScale(Vector3.one, 1.5f).setEaseSpring().setOnComplete(() =>
         {
             _banner.LeanScale(Vector3.zero, 0.3f).setEaseSpring();
@@ -132,4 +143,5 @@ public class QuestionUI : MonoBehaviour
     {
         return _result ? m_correctBanner : m_wrongBanner;
     }
+    
 }

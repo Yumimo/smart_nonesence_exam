@@ -26,14 +26,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LifeCount m_lifeCount;
     [SerializeField] private float m_walkTime = 1;
     [SerializeField] private Transform m_battleLoc;
-
+    [SerializeField] private Vector2 m_force = new Vector2(5f, 10f);
+    
     [Header("Body Parts")] 
     public BodyPartClass[] bodyParts;
 
     private List<string> removedParts = new List<string>();
     
     private Vector3 originalPosition;
-    public bool HasLefthand => removedParts.Contains("larm") && Name == "Einstein";
     public int Life
     {
         get => _life;
@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
     private void OnDisable()
     {
         GameManager.OnAnswer -= GoToLocation;
+        GameManager.OnSetPlayer -= SetPlayer;
     }
 
     private void Start()
@@ -105,6 +106,10 @@ public class PlayerController : MonoBehaviour
         if (_go.TryGetComponent(out SpriteSkin _skin))
         {
             _skin.enabled = false;
+            foreach (var spriteSkin in _go.GetComponentsInChildren<SpriteSkin>(true))
+            {
+                spriteSkin.enabled = false;
+            }
         }
         var _box = _go.AddComponent<BoxCollider2D>();
         _box.sharedMaterial = new PhysicsMaterial2D
@@ -114,13 +119,19 @@ public class PlayerController : MonoBehaviour
         
         var _rb = _go.AddComponent<Rigidbody2D>();
         _rb.gravityScale = 1f;
-        _rb.AddForce(new Vector2(5f, 10f), ForceMode2D.Impulse);
+        _rb.AddForce(m_force, ForceMode2D.Impulse);
     }
 
     public void GetAttackCutscene()
     {
         var _action = GetComponent<ActionHandler>();
         _action.FightCutscene();
+    }
+
+    public void Finisher()
+    {
+        var _action = GetComponent<ActionHandler>();
+        _action.Finisher();
     }
 
     private void GoToLocation(string obj)

@@ -80,10 +80,28 @@ public class GameManager : MonoBehaviour
         {
             _player.RemoveHeart();
             Debug.Log($"End Game Winner {ActivePlayer.Name}");
+            await Task.Delay(500);
+            if (obj)
+            {
+                ActivePlayer.Finisher();
+            }
+            else
+            {
+                nextPlayer.Finisher();
+            }
             return;
         }
+
+        if (obj)
+        {
+            ActivePlayer.GetAttackCutscene();
+        }
+        else
+        {
+            nextPlayer.GetAttackCutscene();
+        }
         _nextPlayer = nextIndex;
-        _player.GetAttackCutscene();
+        
         await Task.Delay(500);
         _player.RemoveHeart();
 

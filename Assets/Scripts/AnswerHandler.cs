@@ -31,6 +31,7 @@ public class AnswerHandler : MonoBehaviour
     }
     private void Answer()
     {
+        AudioManager.Instance.OnButtonClick();
         GameManager.OnAnswer?.Invoke(_answer);
     }
 
